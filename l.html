@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Enhanced Form</title>
+</head>
+<body>
+  <header>
+    <h1>Registration Form</h1>
+  </header>
+
+  <main>
+    <section>
+      <form action="#" method="post">
+        <label>Name: <input type="text" placeholder="Your name" required></label>
+        <label>Email: <input type="email" autocomplete="on" required></label>
+        <label>Password: <input type="password" required></label>
+        <label>Birthdate: <input type="date" min="1900-01-01" max="2025-12-31"></label>
+        <label>Gender:
+          <select required>
+            <option value="">Select</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+        </label>
+        <input type="submit" value="Register">
+      </form>
+    </section>
+
+    <section>
+      <h2>Media Example</h2>
+      <img src="profile.jpg" alt="Profile Image" width="200">
+    </section>
+
+    <section>
+      <h2>Sample Table</h2>
+      <table border="1">
+        <tr><th>Field</th><th>Type</th></tr>
+        <tr><td>Name</td><td>Text</td></tr>
+        <tr><td>Email</td><td>Email</td></tr>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>Created by Porvev</p>
+  </footer>
+</body>
+</html>
